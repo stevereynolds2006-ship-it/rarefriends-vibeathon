@@ -36,7 +36,7 @@ Open the printed URL. The public preview is the output of `npx friendsdk build g
 - The Friend on stage is the canonical Generations bitmap. Clothes, skates, and masks are overlays.
 - Tap the floor to walk. **Rink** opens the skating rink. **Gym/Arcade** opens the workout room. **Dance** opens the club once a look is on. **Stash** opens what you own.
 - **Buy token** spends 1 simulated RF for one mall token. **Open token** rolls the table below and puts that look on. Putting a look on zooms in, then returns to normal size.
-- In the gym, click the gym or the arcade. Tap the weights to lift. A middle arcade machine costs 1 token to play Rad Break. Dropping the ball sends you through a 5-second light-and-confetti trip, then back to the arcade.
+- In the gym, click the gym or the arcade. Tap the weights to lift. A middle arcade machine costs 1 token to play Rad Break. Other players in 80s gear stand at the machines. Dropping the ball sends you through a 5-second light-and-confetti trip, then back to the arcade.
 - On the dance floor, tap to move. The disco ball spins and throws light across the floor. Dancers follow your move. **Dance** cycles the move. Sound starts muted.
 - On the rink, buy skates with simulated RF. A weekly rare pair rotates every 7 days. After 3 laps the floor cracks and you fall into an underground room. Tap **Pictures** to open the photo booth.
 - The underground lights cannot all be turned off. Each switch flips two lights, and one starts on. **Buy token** adds a mall token. **Leave · 3 tokens** spends 3 mall tokens and returns to the wardrobe.
