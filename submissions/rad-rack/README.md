@@ -34,12 +34,13 @@ Open the printed URL. The public preview is the output of `npx friendsdk build g
 ## How to play
 
 - The Friend on stage is the canonical Generations bitmap. Clothes, skates, and masks are overlays.
-- Tap the floor to walk. **Dance** on the right goes to the club once a look is on. **Rink** on the left goes to the roller rink. **Yours** on the desk opens the closet.
+- Tap the floor to walk. **Rink** opens the skating rink. **Gym/Arcade** opens the workout room. **Dance** opens the club once a look is on. **Stash** opens what you own.
 - **Buy token** spends 1 simulated RF for one mall token. **Open token** rolls the table below and puts that look on. Putting a look on zooms in, then returns to normal size.
-- In the club, tap to move. Dancers follow your move. **Dance** cycles the move. Sound starts muted.
-- On the rink, buy skates with simulated RF. A weekly rare pair rotates every 7 days. After 6 laps the floor cracks and you fall into an underground room.
-- The underground lights cannot all be turned off. Each switch flips two lights, and one starts on. **Leave · 3 tokens** spends 3 mall tokens and returns to the wardrobe.
-- The **Pictures** booth on the rink opens the photo booth. Buy a mask, including one weekly rare mask, then tap the room. Your Friend zooms in and the picture projects on the floor in front of them. The picture is also saved in the closet. Open **Yours** in the wardrobe and tap **View**.
+- In the gym, click the gym or the arcade. Tap the weights to lift. A middle arcade machine costs 1 token to play Rad Break. Dropping the ball sends you through a 5-second light-and-confetti trip, then back to the arcade.
+- On the dance floor, tap to move. The disco ball spins and throws light across the floor. Dancers follow your move. **Dance** cycles the move. Sound starts muted.
+- On the rink, buy skates with simulated RF. A weekly rare pair rotates every 7 days. After 3 laps the floor cracks and you fall into an underground room. Tap **Pictures** to open the photo booth.
+- The underground lights cannot all be turned off. Each switch flips two lights, and one starts on. **Buy token** adds a mall token. **Leave · 3 tokens** spends 3 mall tokens and returns to the wardrobe.
+- In the photo booth, buy a mask, including one weekly rare mask, then tap the room. Your Friend zooms in and the picture projects on the floor. The picture is saved in the closet. Open **Stash** and tap **View**.
 
 ## Economy (simulated)
 
