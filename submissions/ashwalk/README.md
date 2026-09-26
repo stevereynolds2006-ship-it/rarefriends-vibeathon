@@ -22,7 +22,7 @@ You play as your own Generations NFT, using its original character artwork. Conn
 
 ## Source code
 
-[github.com/stevereynolds2006-ship-it/ashwalk](https://github.com/stevereynolds2006-ship-it/ashwalk) · FriendSDK v0.1.2
+[github.com/stevereynolds2006-ship-it/ashwalk](https://github.com/stevereynolds2006-ship-it/ashwalk/tree/bd59b900278752a582b646b4d1e5f3d820d0ee9f) · FriendSDK v0.1.2
 
 Node.js 22+. A browser wallet holding a hardwired Generations NFT (generation 1 or higher) on Robinhood mainnet.
 
@@ -37,13 +37,17 @@ Open the printed URL.
 
 ## Playable demo
 
-There is no separate hosted build turned on yet. Play from the source with `npm run dev`, or from GitHub Pages after Pages is set to the `gh-pages` branch: https://stevereynolds2006-ship-it.github.io/ashwalk/ No transaction signature is required. Rare-coin costs are simulated against the balance the wallet reports: the game subtracts them on this device and does not send a chain transfer.
+[https://stevereynolds2006-ship-it.github.io/ashwalk/](https://stevereynolds2006-ship-it.github.io/ashwalk/)
+
+Open that link in a normal browser or in the MetaMask browser. The game fills the screen. No transaction signature is required. Rare-coin costs are simulated against the balance the wallet reports: the game subtracts them on this device and does not send a chain transfer.
+
+You still need a wallet holding a hardwired Generations NFT (generation 1 or higher) on Robinhood mainnet.
 
 ## How do you play?
 
 A and D, or the arrow keys, move. W, up, or space jumps. S drops through a cage. E pulls a rope, lights a bell, or buys a lantern. On a phone, use the buttons at the bottom. Mute and reduced motion are in the corner.
 
-The shore is open first. Beating a fog opens the next one. Six fogs: the shore, the latch, the gale, the choir, the sign, and the antler. The antler wakes something buried. Lead it into the cage and stand on the plate. Its arms keep moving.
+The shore is free. Beating a fog opens the next one, and continuing costs 5 Rare coins. Six fogs: the shore, the latch, the gale, the choir, the sign, and the antler. The antler wakes something buried. Lead it into the cage and stand on the plate. Its arms keep moving. In the MetaMask browser the frame fills the screen.
 
 With friends, open a room code and have the other person join it. Bells, ropes, and coins in a room are shared.
 
@@ -63,7 +67,7 @@ Everything is simulated.
 
 ## Known limitations
 
-Rare-coin spends and clothes are stored in localStorage for the connected address. They are not on-chain transfers, and they do not follow the wallet to another browser. Collected coins on a walk are not added to the wallet balance. Clearing a fog is also stored on this device. Multiplayer needs the dev server's signaling route. GitHub Pages is built on `gh-pages` but still needs Pages turned on in the repo settings.
+Rare-coin spends and clothes are stored in localStorage for the connected address. They are not on-chain transfers, and they do not follow the wallet to another browser. Coins you carry on a walk are not added to the wallet balance. Clearing a fog is also stored on this device. Multiplayer needs `npm run dev` for the signaling route. The public Pages build is solo play.
 
 ## Credits
 
