@@ -37,7 +37,7 @@ Open the printed URL.
 
 ## Playable demo
 
-There is no separate hosted build yet. The playable preview is `npm run dev` from the source repository above. No transaction signature is required. Rare-coin costs are simulated against the balance the wallet reports: the game subtracts them on this device and does not send a chain transfer.
+There is no separate hosted build turned on yet. Play from the source with `npm run dev`, or from GitHub Pages after Pages is set to the `gh-pages` branch: https://stevereynolds2006-ship-it.github.io/ashwalk/ No transaction signature is required. Rare-coin costs are simulated against the balance the wallet reports: the game subtracts them on this device and does not send a chain transfer.
 
 ## How do you play?
 
@@ -51,9 +51,9 @@ With friends, open a room code and have the other person join it. Bells, ropes, 
 
 Everything is simulated.
 
-- 5 Rare coins starts a walk. It does not give you coins. You collect those in the fog.
-- 20 Rare coins opens every fog. Walks are free after that.
-- A death burns half the coins collected on that walk. Three lives, then another walk costs 5 Rare coins.
+- The shore is free. You start that walk with 5 coins.
+- Every fog after the shore costs 5 Rare coins. 20 Rare coins opens every fog, and those walks do not charge again.
+- A death burns half the coins you are carrying. Three lives, then you return to the menu. The shore is still free.
 - A lantern costs 1 collected coin and lasts 10 seconds on the dark boards. A flashlight costs 5 collected coins.
 - Clothes cost Rare coins. One rare piece changes each Monday UTC. Bought clothes stay on that wallet in this browser.
 
@@ -63,7 +63,7 @@ Everything is simulated.
 
 ## Known limitations
 
-Rare-coin spends and clothes are stored in localStorage for the connected address. They are not on-chain transfers, and they do not follow the wallet to another browser. Collected coins on a walk are not added to the wallet balance. Clearing a fog is also stored on this device. Multiplayer needs the dev server's signaling route. There is no hosted public URL yet.
+Rare-coin spends and clothes are stored in localStorage for the connected address. They are not on-chain transfers, and they do not follow the wallet to another browser. Collected coins on a walk are not added to the wallet balance. Clearing a fog is also stored on this device. Multiplayer needs the dev server's signaling route. GitHub Pages is built on `gh-pages` but still needs Pages turned on in the repo settings.
 
 ## Credits
 
